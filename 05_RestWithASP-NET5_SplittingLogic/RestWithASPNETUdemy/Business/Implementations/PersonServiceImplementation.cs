@@ -13,7 +13,7 @@ namespace RestWithASPNETUdemy.Business.Implementations
 
         private readonly IPersonRepository _repository;
 
-        public PersonBusinessImplementation(IPersonRepositor repository)
+        public PersonBusinessImplementation(IPersonRepository repository)
         {
             _repository = repository;
         }
